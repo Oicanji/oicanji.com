@@ -1,0 +1,31 @@
+.grid-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.grid-box > div{
+    flex: 1;
+    border-radius: var(--bs-border-radius) !important;
+    border: 1px solid #ffffff17;
+    margin: 2px 8px 2px 8px;
+    padding: 10px 4px 10px 4px;
+    max-width: 100px;
+}
+
+.grid-box > div > i{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.grid-box > div > p{
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.minnor{
+    font-size: 13px;
+    font-weight: 300;
+}
+.minnor:last-child{
+    margin-top: 10px;
+}

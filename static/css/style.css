@@ -1,0 +1,26 @@
+body{
+    font-family: Monospace, sans-serif;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+.flag-box{
+    border: 0px solid #ffffff17 !important;
+    border-radius: 0px !important;
+    padding: 4px !important;
+    background-color: var(--bs-blue) !important;
+    opacity: 0.6;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.container-fluid > div:not(
+    .div_social, 
+    .div_downloads,
+    .div_routes
+){
+    border: 1px solid #ffffff17;
+    border-radius: 5px;
+    border-width: 0 0 2px 0;
+}
