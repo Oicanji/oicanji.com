@@ -2,24 +2,56 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
 }
 .grid-box > div{
+    position: relative;
+
     flex: 1;
-    border-radius: var(--bs-border-radius) !important;
-    border: 1px solid #ffffff17;
-    margin: 2px 8px 2px 8px;
-    padding: 10px 4px 10px 4px;
+    margin: 8px 10px 8px 10px;
+    padding: 15px 0px 12px 10px;
+    width: 100px;
+    height: 100px;
     max-width: 100px;
+    max-height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+
+    background-color: #ffffff09;
+    border-radius: 10px;
+    
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    z-index: 10;
+}
+
+.grid-box > div:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px 0px #00000021;
+    z-index: 100;
+}
+.grid-box > div:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff09;
+    border-radius: 10px;
+    z-index: -1;
 }
 
 .grid-box > div > i{
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 10px;
+    width: 100%;
 }
-.grid-box > div > p{
-    font-size: 11px;
+.grid-box > div > :not(i){
     font-weight: 600;
+    font-size: 0.8rem;
 }
 
 .minnor{
@@ -28,4 +60,13 @@
 }
 .minnor:last-child{
     margin-top: 10px;
+}
+
+
+.unity{
+    background-color: rgba(255, 255, 255, 0.507) !important;
+    color: black !important;
+}
+.unity:before {
+    background-color: rgba(255, 255, 255, 0.425) !important;
 }
