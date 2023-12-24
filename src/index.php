@@ -6,7 +6,6 @@
     <body class="bg-black text-light">
         <?php
             $here = '';
-            $header_show = true;
 
             // pegar o parâmetro 'download' da url
             if (isset($_GET['download'])) { 
@@ -15,7 +14,6 @@
                 $here = 'projects';
             }else if(isset($_GET['profile'])){
                 $here = 'profile';
-                $header_show = false;
             }else{
                 $here = 'home';
             }
@@ -37,7 +35,9 @@
                     break;
             }
 
-            require('src/include/footer.php');
+            require('src/components/footer/footer.php');
+
+            require('src/include/bottom.php');
         ?>
         <br />
     </body>

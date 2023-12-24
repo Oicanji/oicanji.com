@@ -6,3 +6,4 @@
 <link href="static/fontawesome/css/brands.css" rel="stylesheet">
 <link href="static/fontawesome/css/solid.css" rel="stylesheet">
 <link href="static/css/style.css" rel="stylesheet">
+<link href="static/css/bootstrap.override.css" rel="stylesheet">

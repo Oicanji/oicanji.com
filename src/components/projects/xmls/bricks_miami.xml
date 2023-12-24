@@ -1,0 +1,43 @@
+<?xml version='1.0' ?>
+<project>
+    <name>
+        Bricks Miami
+    </name>
+    <description>
+        Meu novo jogo, feito em conjunto com meu amigo Ryan Marcos, um jogo top-down com estética anos 80 disco.
+    </description>
+    <content>
+        <div class="container pr-5 pl-5">
+            Finalmente tive a matéria de Jogos no IFSC Campus Garopaba, onde junto ao meu fiel escudeiro Ryan Marcos exploramos a ideia de um jogo Bricks (tijolo).
+            <div style="display: flex; flex-direction: row; justify-content: center; width: 100%">
+                <div 
+                    style="
+                        height: 100%;
+                        min-height: 200px;
+                        width: 100%;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-image: url('data:image/png;base64,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');
+                    "
+                >
+                </div>
+                
+                <div
+                    class="pt-5 pb-5"
+                >
+                    O que é um jogo bricks? Basicamente é aquele jogo que qualquer um que já se divertiu nos sites de flash dos anos 2000 tenha jogado, onde o objetivo de quebrar blocos é o mais importante do jogo inteiro.
+                </div>
+            </div>
+            <hr />
+            <div>
+                Mais como eu e ele somos um pouco apaixonados demais pelos videogames, criamos algo muito além, combinando com o estilo top-down e sem querer terminamos com um hotline-miami clone com muita personalidade e se inspirando principalmente na estética anos 80 disco.
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2_2PjUsiBqo?si=jzysxKkgfup148Xv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
+                O jogo já está em fase final de desenvolvimento, mas ainda um horrível bug não permite dar build no jogo direito, espero resolver logo e postar para download!
+            </div>
+        </div>
+    </content>
+    <date>
+        8 de dezembro de 2023
+    </date>
+</project>

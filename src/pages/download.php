@@ -13,10 +13,24 @@
                         // verificar a extensão do arquivo
                         $ext = pathinfo($file, PATHINFO_EXTENSION);
 
-                        echo '<a class="link-light link-underline link-underline-opacity-0" href="downloads/projetos/'.$file.'" download>';
+
                         echo '  <div class="text-center col-md-2">';
                         echo '      <div class="h6">';
                         switch($ext){
+                            case 'zip':
+                                echo 'Projeto Java'
+                                .  '</div>';
+                                echo '<div style="font-size:74px">'
+                                .       '<i class="fa-solid fa-file-zipper"></i>'
+                                .    '</div>';
+                                break;
+                            case 'sb2':
+                                echo 'Exemplo Aula Scratch'
+                                .  '</div>';
+                                echo '<div style="font-size:74px">'
+                                .       '<i class="fa-solid fa-gamepad"></i>'
+                                .    '</div>';
+                                break;
                             case 'apk':
                                 echo 'Jogo para Android'
                                 .  '</div>';
@@ -25,10 +39,11 @@
                                 .    '</div>';
                                 break;
                             default:
-                                echo '<p><i class="fa-solid fa-file"></i></p></div>';
+                                echo '<div style="font-size:74px"><i class="fa-solid fa-file"></i></div></div>';
                         }
+                        echo '<a class="link-light link-underline link-underline-opacity-0" href="downloads/projetos/'.$file.'" download>';
 
-                        echo '<p class="link-primary link-underline link-underline-opacity-100">'.$file.'</p></div></a>';
+                        echo '<p class="link-primary link-underline link-underline-opacity-100">'.$file.'</p></a></div>';
                     }
                 }
             ?>
@@ -47,7 +62,6 @@
                         // verificar a extensão do arquivo
                         $ext = pathinfo($file, PATHINFO_EXTENSION);
 
-                        echo '<a class="link-light link-underline link-underline-opacity-0" href="downloads/outros/'.$file.'" download >';
                         echo '<div class="text-center col-md-2">';
                         echo '<div class="h6">';
                         switch($ext){
@@ -59,12 +73,16 @@
                                 echo 'Arquivo ZIP </div>';
                                 echo '<div style="font-size:74px"><i class="fa-solid fa-file-zipper"></i></div>';
                                 break;
+                            case 'mp4':
+                                echo 'Vídeo </div>';
+                                echo '<div style="font-size:74px"><i class="fa-solid fa-video"></i></div>';
+                                break;
                             default:
                                 echo 'Arquivo </div>';
                                 echo '<div style="font-size:74px"><i class="fa-solid fa-file"></i></div>';
                         }
-
-                        echo '<p class="link-primary link-underline link-underline-opacity-100">'.$file.'</p></div></a>';
+                        echo '<a class="link-light link-underline link-underline-opacity-0" href="downloads/outros/'.$file.'" download >';
+                        echo '<p class="link-primary link-underline link-underline-opacity-100">'.$file.'</p></a></div>';
                     }
                 }
             ?>

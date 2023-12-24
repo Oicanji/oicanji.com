@@ -1,0 +1,22 @@
+.bg-black {
+    background-color: #2d2d30 !important;
+}
+
+body.bg-black {
+    background-color: #1e1e1e !important;
+}
+
+.container.bg-black,
+.container-fluid.bg-black {
+    background-color: #252526 !important;
+}
+
+/**
+    * If screen size is more than 1200px
+    */
+
+@media (min-width: 1200px) {
+    body > .container-fluid {
+        padding: 0 15rem !important;
+    }
+}
