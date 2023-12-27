@@ -3,6 +3,19 @@
     <name>
         Bricks Miami
     </name>
+    <thumbnail>
+        <img src="static/img/projects/bricks_miami.png"
+            style="
+                width: 80%;
+                object-fit: contain;
+            "
+        />
+    </thumbnail>
+    <link>
+        Apresentação: <a href="https://www.youtube.com/watch?v=2_2PjUsiBqo" target="_blank">
+            https://www.youtube.com/watch?v=2_2PjUsiBqo
+        </a>
+    </link>
     <description>
         Meu novo jogo, feito em conjunto com meu amigo Ryan Marcos, um jogo top-down com estética anos 80 disco.
     </description>

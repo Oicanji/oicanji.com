@@ -1,4 +1,6 @@
-<div class="container-fluid" style="margin-top: 10px;">
+<link rel="stylesheet" href="static/css/download.css">
+
+<div class="container-fluid download-div" style="margin-top: 10px;">
     <div class="bg-dark flag-box">
         Você esta em downloads
     </div>

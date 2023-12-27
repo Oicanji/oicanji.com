@@ -58,6 +58,19 @@ $words = array(
     'Vera Fischer Falsa. ( Verdadeiro com Falso dá Falso, não me esqueço das aulas de tabela verdade )',
     'Toca Raul!',
     'O jogo',
+    'Dirty dancing with the devil <br />
+    To calm the rattle in my mind <br />
+    All of the battles that I fight <br />
+    Come from demons that I hide <br />
+    They love the shadows <br />
+    When my angels on sabbatical <br />
+    Fly high, touch the sky, fall back <br />
+    Dirty dancing with the devil <br />
+    To calm the rattle in my mind <br />
+    All of the battles that I fight <br />
+    Come from demons that I hide <br />
+    They love the shadows <br />
+    When my angels on sabbatical',
 );
 
 // holidays detection

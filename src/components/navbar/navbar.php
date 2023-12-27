@@ -18,7 +18,13 @@
             <!-- <img src="https://avatars.githubusercontent.com/u/51388779?s=400&u=3662a21c9792442c7290ebf0a0731c528da31013&v=4" 
                         style="transform: scaleX(-1);" 
                         class="rouded shadow-lg border border-4 border-white border-opacity-10" alt="profile" width="90" height="90"> -->
-            <canvas id="profile" width="90" height="90" class="rouded shadow-lg border border-4 border-white border-opacity-10"></canvas>
+            <canvas id="profile" width="90" height="90" 
+                style="image-rendering: pixelated;"
+                class="rouded shadow-lg border border-4 border-white border-opacity-10"></canvas>
+            <button class="btn btn-primary" id="downloadButton">
+                <i class="fas fa-download"></i>
+            </button>
+
         </div>
 
     <div class="div_routes bg-dark">
@@ -65,4 +71,7 @@
     }
 </script>
 
+<script src="static/js/profile-parts.js"></script>
+<script src="static/js/profile-special.js"></script>
+<script src="static/js/profile-random.js"></script>
 <script src="static/js/profile.js"></script>

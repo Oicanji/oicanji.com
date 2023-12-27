@@ -12,6 +12,8 @@
                 $here = 'download';
             }else if(isset($_GET['projects'])){
                 $here = 'projects';
+            }else if(isset($_GET['project'])){
+                $here = 'project';
             }else if(isset($_GET['profile'])){
                 $here = 'profile';
             }else{
@@ -26,6 +28,9 @@
                     break;
                 case 'projects':
                     require('src/pages/projects.php');
+                    break;
+                case 'project':
+                    require('src/pages/project.php');
                     break;
                 case 'profile':
                     require('src/pages/profile.php');

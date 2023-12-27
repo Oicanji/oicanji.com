@@ -1,0 +1,314 @@
+<?xml version='1.0' ?>
+<project>
+    <name>
+        NFT Generator
+    </name>
+    <thumbnail>
+        <img src="static/img/projects/nft_generator.png"
+            style="
+                width: 80%;
+                object-fit: contain;
+            "
+        />
+    </thumbnail>
+    <link>
+        Repositório: <a href="https://github.com/Oicanji/NFTGenerator" target="_blank">
+            https://github.com/Oicanji/NFTGenerator
+        </a>
+        <br />
+        Recursos para gerar as imagens: <a href="https://oicanji.itch.io/ahegao-fungible-token" target="_blank">
+            https://oicanji.itch.io/ahegao-fungible-token
+        </a>
+    </link>
+    <description>
+        Alguém já teve a vontade de fazer uma geração aleatória de imagens? Eu muito no buum das NFT um dia tive a ideia de criar por diversão um algoritmo e desenhos para criação de imagens por lote, o resultado…    
+    </description>
+    <content>
+        Um tempo atrás (3 anos kk), era a febre dos NFT (graças a deus acabou), eu estava em outro momento da minha vida, onde entrei para a faculdade e fora dela não trabalhava com programação, mesmo já formado no técnico de Desenvolvimento de Sistemas.
+        <br />
+        <hr />
+        Essa história de NFT ou tokens não fungíveis já me era muito estranho, sem querer desvalorizar quem acreditou na ideia, mas quando começou a deturpar a ideia central de manter uma propriedade intelectual foi transformada em diversos desenhos mal feitos valendo milhões de dólares, era muito óbvio deduzir que tudo se passou de especulação pura.
+        <br /><br />
+        <div style="margin-left: 10%; margin-right: 10%; width: 80%;">
+            <img src="static/img/projects/nft_generator/nft1.png"
+                style="
+                    width: 100%;
+                    object-fit: contain;
+                "
+            />
+            <img src="static/img/projects/nft_generator/nft2.png"
+                style="
+                    width: 100%;
+                    object-fit: contain;
+                "
+            />
+            <small> Sátira feita por mim em anúncios falsos que eu coloco em meus projetos ironizando as NFT da época. </small>
+        </div>
+        <br />
+        Talvez se eu tivesse ganhado uma boa grana nesse mercado tivesse outra opinião, talvez um pouco mais critíca ao que tinha se tornado o conceito, mas o que importa que em todo esse *BUUM!* conheci pessoas próximas quais estavão interessadas em ganhar dinheiro com isso.
+        <br /><br />
+        <div class="row">
+            <div class="col-12 col-md-7">
+                Minha amiga de faculdade Step, me apresentou a ideia já aplicada em um site de vendas, eu realmente nunca tive vontade de jogar um monte de NFT lá, mas a ideia cutuco na minha cabeça, mente vazia é oficina do diabo, não é o que dizem? Então um neurônio muito louco fez a ligação no meio do nada.
+            </div>
+            
+            <div class="col-12 col-md-5">
+                <img src="static/img/projects/nft_generator/neuron.jpg"
+                    style="
+                        width: 100%;
+                        object-fit: contain;
+                        padding: 0 25%;
+                    "
+                    alt="Macaco que representa eu ao acionar o neurônio da ideia"
+                />
+            </div>
+        </div>
+        <br />
+        A ideia principal era gerar aleatoriamente alguma coisa, mais não sei onde estava com a cabeça que só pensei em gerar garotas de anime com rostros suspeitamente duvidosos.
+        <br /><br />
+        Essa ideia veio muito em pauta com o que estava sendo discutido na minha roda de amigos na época, é incrível como até hoje é uma dúvida valida, porque tem tanto jogo de garota anime com caras e bocas na Steam que são copias de modelos prontos etc…
+        <br /><br />
+        Isso não me irrita, mas me faz pensar, será que a publisher, empresa por trás dos jogos, está ganhando com isso?
+        Mais importante, será que as pessoas que vi no site ganhavam com NFT?
+        <br /><br />
+        Com as duas perguntar cutucando minha cabeça passei um noite inteira trabalhando no protótipo que seria o https://github.com/Oicanji/NFTGenerator. Como na faculdade trabalhava com Python e eu na época não me desgostava nem me atraia usar Python nos meus projetos, optei por ele.
+        <br /><br />
+        
+        <div class="row">
+            <div class="col-12 col-md-7">
+                Com uma estrutura absurdamente simples, se eu dizer que usei métodos avançados MVC de construção estarei mentindo, só fui escrever o código que surgia na mente, quão mais rápido eu fazia, mais rápido eu tinha um resultado para mostrar aos meu colega de faculdade, quando terminei ainda tive que correr atrás de fazer algumas diferentes facetas para ficar cômico e destoante entre sí.
+            </div>
+            
+            <div class="col-12 col-md-5">
+                <img src="static/img/projects/nft_generator/repo.png"
+                    style="
+                        width: 100%;
+                        object-fit: contain;
+                        padding: 0 18%;
+                    "
+                    alt="Repositório do projeto"
+                />
+            </div>
+        </div>
+        <br /><br />
+        <div class="row">
+            <div class="col-6 col-md-3">
+                <img src="static/img/projects/nft_generator/6jil-waifus.png"
+                    style="
+                        width: 100%;
+                        object-fit: contain;
+                        padding: 0 18%;
+                    "
+                    alt="Foto de 6 waifus geradas"
+                />
+                <span style="font-size: 0.65em;">
+                    Essa é uma das mais raras, não apenas dourada no fundo, mais também a pele, super especial! Eu achei muito bonita também.
+                </span>
+            </div>
+            <div class="col-6 col-md-3">
+                <img src="static/img/projects/nft_generator/sWZu-waifus.png"
+                    style="
+                        width: 100%;
+                        object-fit: contain;
+                        padding: 0 18%;
+                    "
+                    alt="Foto de 6 waifus geradas"
+                />
+                <span style="font-size: 0.65em;">
+                    Fiz graça com a ideia também, não apenas podia ter garotas todas rabiscadas como tem muitos easter eggs engraçados!
+                </span>
+            </div>
+            <div class="col-6 col-md-3">
+                <img src="static/img/projects/nft_generator/kWFo-waifus.png"
+                    style="
+                        width: 100%;
+                        object-fit: contain;
+                        padding: 0 18%;
+                    "
+                    alt="Foto de 6 waifus geradas"
+                />
+                <span style="font-size: 0.65em;">
+                    O algoritmo ainda adicionou um bom constrante com os olhos castanhos, aprovado!
+                </span>
+            </div>
+            <div class="col-6 col-md-3">
+                <img src="static/img/projects/nft_generator/irnO-waifus.png"
+                    style="
+                        width: 100%;
+                        object-fit: contain;
+                        padding: 0 18%;
+                    "
+                    alt="Foto de 6 waifus geradas"
+                />
+                <span style="font-size: 0.65em;">
+                    Aa ideia de gerar personagens aleatoriamente é muito divertida, eu mesmo fiquei surpreso com o resultado, uma garota zumbi??
+                </span>
+            </div>
+            <div class="col-6 col-md-3">
+                <img src="static/img/projects/nft_generator/mry7-waifus.png"
+                    style="
+                        width: 100%;
+                        object-fit: contain;
+                        padding: 0 18%;
+                    "
+                    alt="Foto de 6 waifus geradas"
+                />
+                <span style="font-size: 0.65em;">
+                    O virtiligo já era algo que tinha trabalhado com um personagem meu, mas a combinação com o cabelo e a cor da pele ficou muito bom.
+                </span>
+            </div>
+            <div class="col-6 col-md-3">
+                <img src="static/img/projects/nft_generator/96Uv-waifus.png"
+                    style="
+                        width: 100%;
+                        object-fit: contain;
+                        padding: 0 18%;
+                    "
+                    alt="Foto de 6 waifus geradas"
+                />
+                <span>
+                    Além de rara... PERFEIÇÃO! Sem mais.
+                </span>
+            </div>
+            <div class="col-6 col-md-3">
+                <img src="static/img/projects/nft_generator/sZ2Z-waifus.png"
+                    style="
+                        width: 100%;
+                        object-fit: contain;
+                        padding: 0 18%;
+                    "
+                    alt="Foto de 6 waifus geradas"
+                />
+                <span style="font-size: 0.65em;">
+                    Esse representa a ideia original, mesmo que eu tenha feito outras expressões que não fossem ahegao...
+                </span>
+            </div>
+            <div class="col-6 col-md-3">
+                <img src="static/img/projects/nft_generator/e4gb-waifus.png"
+                    style="
+                        width: 100%;
+                        object-fit: contain;
+                        padding: 0 18%;
+                    "
+                    alt="Foto de 6 waifus geradas"
+                />
+                <span style="font-size: 0.65em;">
+                    No meio do carnaval de cores e combinações temos garotas normais... ou não. Simplês porém acolhedora.
+                </span>
+            </div>
+        </div>
+        <br /><br />
+        Sim, eu criei um sistema inteiro para complementar uma raridade entre elas, por exemplo, o fundo dourado ou vermelho é algo muito raro, isso e outros detalhes eu adorei de ir pensando na hora enquanto eu codava.
+        <br /><br />
+        Uma das coisas mais malucas que fiz, foi a criação completa de pacotes que só de jogar as imagens com nomes corretamente tudo era configurado automaticamente, aí podendo criar pastas diferentes que só de extrair teria um conjunto de novas imagens.
+        <br /><br />
+        Não lembro ao certo, mas foi pedido em algum momento que já tinha feito a 0.2 do programa para mostrar o conhecimento em programação (matéria antes de orientação a objetos, então esperavam algo simples), com tema livre, ou algo assim, mais eu sei que em algum momento mostrei em aula (EAD affs), o que tinha feito para meus dois queridos professores.
+        (Acho que todos me achavam um chato/arrogante na época, porém eu adorava conversar do pouco que eu mexia em programação na época, talvez essa primeira impressão tenha ficado com meus colegas da faculdade que não passaram do primeiro ano, eu só queria socializar…)
+        <br /><br /><br />
+        
+        <div class="row">
+            
+            <div class="col-12 col-md-5">
+                <img src="static/img/projects/nft_generator/background.png"
+                    style="
+                        width: 100%;
+                        object-fit: contain;
+                        padding: 0 25%;
+                    "
+                    alt="Macaco que representa eu ao acionar o neurônio da ideia"
+                />
+            </div>
+            <div class="col-12 col-md-7">
+                Isso de mostrar para os professores uma garota anime vesga com a língua para fora parecia uma ideia de maluco (spoiler é). Como na época eu não podia passar mais uma vergonha no cartão de crédito, eu inventei de criar um novo pacote com pizzas aleatórias e criminosas…
+            </div>
+        </div>
+        <br /><br />
+        
+        <div class="row">
+            <div class="col-6 col-md-4">
+                <img src="static/img/projects/nft_generator/Gi9N-pizza.png"
+                    style="
+                        width: 100%;
+                        object-fit: contain;
+                        padding: 0 18%;
+                    "
+                    alt="Pizza de chocolate-queijo-calabresa"
+                />
+                <span style="font-size: 0.65em;">
+                    Alguns crimes são mais graves que outros, essa pizza de chocolate com queijo e calabresa é um deles.
+                </span>
+            </div>
+            <div class="col-6 col-md-4">
+                <img src="static/img/projects/nft_generator/aQIP-pizza.png"
+                    style="
+                        width: 100%;
+                        object-fit: contain;
+                        padding: 0 18%;
+                    "
+                    alt="Pizza sem nada só com um abacaxi seco"
+                />
+                <span style="font-size: 0.65em;">
+                    É cómico, não tem nada na pizza, só abacaxi... Só isso.
+                </span>
+            </div>
+            <div class="col-6 col-md-4">
+                <img src="static/img/projects/nft_generator/plZZ-pizza.png"
+                    style="
+                        width: 100%;
+                        object-fit: contain;
+                        padding: 0 18%;
+                    "
+                    alt="Pizza suspeita verde"
+                />
+                <span style="font-size: 0.65em;">.
+                    Eu me esforço para imagina que é espinafre, mas não consigo...
+                </span>
+            </div>
+        </div>
+        <br /><br />
+        No fim os professores gostaram do sentido prático que dei a aplicação do python, essa inspiração do nada no fim levou a um resultado bom pelo menos. Em outras vezes da minha trajetória até aqui já utilizei novamente a ferramenta, como da vez que eu mesmo criei um site de venda de NFT com wordpress no curso. (Uma história para outra hora)
+        <br /><br />
+        Apreendi várias coisas não só de programação, como de pixelart trabalhando nesse projeto, foi uma experiência que eu fazia novamente… [vim do futuro e me aproveitei das minhas lembranças e fiz meu avatar aleatório :D]
+        <br /><br /><br />
+        Praticamente foi isso toda minha jornada, deixo a minha imagem favorita de toda minha coleção de 2mil NFT nunca postadas em nenhum lugar.
+        <br /><br />
+        <div style="position: relative" class="waifu">
+            <img src="static/img/projects/nft_generator/ZLrj-waifus.png"
+                style="
+                    width: 100%;
+                    object-fit: contain;
+                    padding: 0 40%;
+                "
+                alt="Garota anime, cabelos brancos e olhos vermelhos, com um sorriso malicioso"
+            />
+            <span>
+                MÊ DÁ UM REAL!
+            </span>
+        </div>
+        <style>
+            .waifu span {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                opacity: 0;
+                transition: all 0.5s ease;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                font-size: 2em;
+            }
+            .waifu span:hover {
+                opacity: 1;
+                background-color: #101010;
+                transition: all 0.5s ease;
+            }
+        </style>
+    </content>
+    <date>
+        27 de dezembro de 2023
+    </date>
+</project>
