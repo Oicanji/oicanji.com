@@ -37,6 +37,62 @@ const CLOTHES = [
     {
         skin: "clothesbody4_color4.png",
     },
+    {
+        skin: "clothesbody5_color1.png",
+        chance: 0.9
+    },
+    {
+        skin: "clothesbody5_color2.png",
+        chance: 0.5
+    },
+    {
+        skin: "clothesbody5_color3.png",
+        chance: 0.1
+    },
+    {
+        skin: "clothesbody5_color4.png",
+        chance: 0.9
+    },
+    {
+        skin: "clothesbody5_color5.png",
+        chance: 0.1
+    },
+    {
+        skin: "clothesbody5_color6.png",
+        chance: 0.01
+    },
+    {
+        skin: "clothesbody6_color1.png",
+        chance: 0.6
+    },
+    {
+        skin: "clothesbody6_color2.png",
+        chance: 0.6
+    },
+    {
+        skin: "clothesbody6_color3.png",
+        chance: 0.6
+    },
+    {
+        skin: "clothesbody6_color4.png",
+        chance: 0.2
+    },
+    {
+        skin: "clothesbody6_color5.png",
+        chance: 0.08
+    },
+    {
+        skin: "clothesbody6_color6.png",
+        chance: 0.3
+    },
+    {
+        skin: "clothesbody6_color7.png",
+        chance: 0.01
+    },
+    {
+        skin: "clothesbody6_color8.png",
+        chance: 0.3
+    },
 ]
 const HEAD = [
     {
@@ -300,12 +356,12 @@ const GLASSES = [
     {
         skin: "gojo_glasses.png",
         shadow: "",
-        chance: 0.2
+        chance: 0.01
     },
     {
         skin: "kamina.png",
         shadow: "kamina_shadow.png",
-        chance: 0.4
+        chance: 0.2
     },
     {
         skin: "",
@@ -321,15 +377,16 @@ const HAIR = [
     {
         skin: "hair1_color2.png",
         shadow: "hairshadow1_color1.png",
-        chance: 0.5
+        chance: 0.2
     },
     {
         skin: "hair2_color1.png",
         shadow: "hairshadow2_color1.png",
     },
     {
-        skin: "hair1_color2.png",
-        shadow: "hairshadow1_color1.png"
+        skin: "hair2_color2.png",
+        shadow: "hairshadow1_color1.png",
+        chance: 0.2
     },
     {
         skin: "hair3_color1.png",
@@ -337,14 +394,29 @@ const HAIR = [
         chance: 0.3
     },
     {
-        skin: "gojo_hair.png",
+        skin: "hair3_color2.png",
         shadow: "",
-        chance: 0.01
+        chance: 0.1
+    },
+    {
+        skin: "makima_hair_color1.png",
+        shadow: "",
+        chance: 0.0001
+    },
+    {
+        skin: "makima_hair_color2.png",
+        shadow: "",
+        chance: 0.0001
+    },
+    {
+        skin: "makima_hair_color3.png",
+        shadow: "",
+        chance: 0.0001
     },
     {
         skin: "",
         shadow: "",
-        chance: 0.1
+        chance: 0.01
     }
 ]
 const NEARS = [
@@ -353,7 +425,7 @@ const NEARS = [
     }
 ]
 
-const ANIMAL_CHANCE = 0.1;
+const ANIMAL_CHANCE = 0.05;
 const ANIMAL = [
     {
         skin: "animal1_color1.png",
@@ -362,11 +434,17 @@ const ANIMAL = [
         skin: "animal1_color2.png",
     },
     {
+        skin: "animal1_color3.png",
+    },
+    {
+        skin: "animal1_color4.png",
+    },
+    {
         skin: "animal2_color1.png",
     }
 ]
 
-const SPECIAL_CHANCE = 0.02;
+const SPECIAL_CHANCE = 0.1;
 const SPECIAL = [
     {
         skin: "special1.png",
@@ -379,5 +457,26 @@ const SPECIAL = [
     },
     {
         skin: "special4.png",
+    },
+    {
+        skin: "special5.png",
+    },
+    {
+        skin: "special6.png",
+    },
+    {
+        skin: "special7.png",
+    },
+    {
+        skin: "special8.png",
+    },
+    {
+        skin: "special9.png",
+    },
+    {
+        skin: "special10.png",
+    },
+    {
+        skin: "special11.png",
     }
 ]

@@ -1,11 +1,13 @@
+const EASTER_EGG_CHANCE = 0.001;
+
 const EASTER_EGG = [
     {
         image: "ryan.png",
-        chance: 0.1
+    },
+    {
+        image: "kayne.png",
     }
 ]
-
-const EASTER_EGG_CHANCE = 0.001;
 
 const COSPLAY = [
     {
@@ -14,13 +16,27 @@ const COSPLAY = [
             {
                 layer: "glasses",
                 skin: "gojo_glasses.png",
-                shadow: ""
+            },
+            {
+                layer: "glasses_shadow",
+                skin: "",
             },
             {
                 layer: "hair",
                 skin: "gojo_hair.png",
-                shadow: ""
             },
+            {
+                layer: "clothes",
+                skin: "clothesbody4_color1.png",
+            },
+            {
+                layer: "eyes",
+                skin: "eyes1_color9.png",
+            },
+            {
+                layer: "special",
+                skin: "special9.png",
+            }
         ]
     },
     {
@@ -29,14 +45,57 @@ const COSPLAY = [
             {
                 layer: "glasses",
                 skin: "glasses_donfalmingo.png",
-                shadow: "glasses_donfalmingo_shadow.png"
+            },
+            {
+                layer: "glasses_shadow",
+                skin: "glasses_donfalmingo_shadow.png",
             },
             {
                 layer: "clothes",
                 skin: "clothesbody3_color1.png",
             }
         ]
+    },
+    {
+        name: "makima",
+        parts: [
+            {
+                layer: "hair",
+                skin: "makima_hair_color1.png",
+            },
+            {
+                layer: "hair_shadow",
+                skin: "",
+            },
+            {
+                layer: "clothes",
+                skin: "clothesbody5_color1.png",
+            },
+            {
+                layer: "eyes",
+                skin: "eyes1_color5.png",
+            },
+        ]
+    },
+    {
+        name: "makima_v2",
+        parts: [
+            {
+                layer: "hair",
+                skin: "makima_hair_color1.png",
+            },
+            {
+                layer: "hair_shadow",
+                skin: "",
+            },
+            {
+                layer: "clothes",
+                skin: "clothesbody6_color1.png",
+            },
+            {
+                layer: "eyes",
+                skin: "eyes1_color5.png",
+            },
+        ]
     }
 ]
-
-const COSPLAY_CHANCE = 0.1;

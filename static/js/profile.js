@@ -4,7 +4,6 @@ const ctx = canvas.getContext("2d");
 
 
 function randPart(parts, force_chance = 0.025) {
-  console.log(force_chance);
   const choose = parts[Math.floor(Math.random() * parts.length)];
   if(choose.hasOwnProperty("chance")) {
     if(Math.random() < choose.chance+force_chance) {
@@ -14,6 +13,27 @@ function randPart(parts, force_chance = 0.025) {
     }
   }
   return choose;
+}
+
+const avatar = {
+  body: "",
+  clothes: "",
+  head: "",
+  mouth_shadow: "",
+  mouth: "",
+  nouse_shadow: "",
+  nouse: "",
+  beard_shadow: "",
+  beard: "",
+  hair_shadow: "",
+  hair: "",
+  eyes: "",
+  eyebrows: "",
+  nears: "",
+  glasses_shadow: "",
+  glasses: "",
+  animal: "",
+  special: ""
 }
 
 const createImage = () => {
@@ -26,55 +46,43 @@ const createImage = () => {
   const choose_glasses = randPart(GLASSES);
   const choose_hair = randPart(HAIR);
 
-  const final = [
-    randPart(BODY).skin,
-    randPart(CLOTHES).skin,
-    randPart(HEAD).skin,
-    choose_mouth.skin,
-    choose_nouse.skin,
-    choose_beard.skin,
-  ]
+  avatar.body = randPart(BODY).skin;
+  avatar.clothes = randPart(CLOTHES).skin;
+  avatar.head = randPart(HEAD).skin;
+  avatar.mouth = choose_mouth.skin;
+  avatar.mouth_shadow = choose_mouth.shadow;
+  avatar.nouse = choose_nouse.skin;
+  avatar.nouse_shadow = choose_nouse.shadow;
+  avatar.beard = choose_beard.skin;
+  avatar.beard_shadow = choose_beard.shadow;
+  avatar.hair = choose_hair.skin;
+  avatar.hair_shadow = choose_hair.shadow;
+  avatar.eyes = randPart(EYES).skin;
+  avatar.eyebrows = randPart(EYEBROWS).skin;
+  avatar.nears = randPart(NEARS).skin;
+  avatar.glasses = choose_glasses.skin;
+  avatar.glasses_shadow = choose_glasses.shadow;
+  avatar.animal = choose_animal ? choose_animal.skin : "";
+  avatar.special = choose_special ? choose_special.skin : "";
 
-  if(choose_hair.skin != "") {
-    final.push(choose_hair.skin);
-  }
-  if(choose_mouth.shadow != "") {
-    final.push(choose_mouth.shadow);
-  }
-  if(choose_nouse.shadow != "") {
-    final.push(choose_nouse.shadow);
-  }
-  if(choose_beard.shadow != "") {
-    final.push(choose_beard.shadow);
-  }
+  if(Math.random() < EASTER_EGG_CHANCE) {
+    if(Math.random() < 0.3) {
+      return [EASTER_EGG[Math.floor(Math.random() * EASTER_EGG.length)].image];
+    }
 
-  final.push(randPart(EYES).skin);
+    const choose_egg = COSPLAY[Math.floor(Math.random() * COSPLAY.length)];
 
-  if(choose_hair.shadow != "") {
-    final.push(choose_hair.shadow);
+    for ( part of choose_egg.parts) {
+      avatar[part.layer] = part.skin;
+    }
+
   }
-
-  if(choose_glasses.shadow != "") {
-    final.push(choose_glasses.shadow);
+  const final = [];
+  for (const [_, value] of Object.entries(avatar)) {
+    if(value != "") {
+      final.push(value);
+    }
   }
-
-  if(choose_glasses.skin != "") {
-    final.push(choose_glasses.skin);
-  }
-
-  final.push(randPart(EYEBROWS).skin);
-  
-  final.push(randPart(NEARS).skin);
-
-  if(choose_animal) {
-    final.push(choose_animal.skin);
-  }
-  if(choose_special) {
-    final.push(choose_special.skin);
-  }
-
-  console.log(final);
-
   return final;
 }
 

@@ -1,7 +1,7 @@
 <?php
 $project = [
-    'nft_generator.xml',
     'bricks_miami.xml',
+    'nft_generator.xml',
 ];
 
 $offset = isset($_GET['offset']) ? filter_input(INPUT_GET, 'offset', FILTER_SANITIZE_URL) : 0;

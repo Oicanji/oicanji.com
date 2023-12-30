@@ -17,40 +17,242 @@
         </a>
     </link>
     <description>
-        Meu novo jogo, feito em conjunto com meu amigo Ryan Marcos, um jogo top-down com estética anos 80 disco.
-    </description>
+        Um jogo criado em duas semanas, no estilo top-down &amp; shoot 'em up, sendo este o projeto final da matéria de “Desenvolvimento de Jogos” no meu curso superior de “Sistemas para Internet”.    </description>
     <content>
         <div class="container pr-5 pl-5">
-            Finalmente tive a matéria de Jogos no IFSC Campus Garopaba, onde junto ao meu fiel escudeiro Ryan Marcos exploramos a ideia de um jogo Bricks (tijolo).
-            <div style="display: flex; flex-direction: row; justify-content: center; width: 100%">
-                <div 
-                    style="
-                        height: 100%;
-                        min-height: 200px;
-                        width: 100%;
-                        background-size: contain;
-                        background-repeat: no-repeat;
-                        background-position: center;
-                        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAIAAAB7GkOtAAAQw0lEQVR4nO3dT2ic54HH8UfZbJe6bmWwD43jkZLSPwHrEEqorbl0i9mjWdiI1QgKCYWGsgcLFnosTc+FBZuylBwKhYJHi7x4t8elhB46sjch5CCzKQ0k0rhputhgsYkXvMTaQ8B+5x3LncfEGVe/z4de3mGe8U8V9ItG6rwzpbxcAMjz2LQHADAdAgAQSgAAQgkAQKjHW9dnTvyu27k++fmzl768cfXIncvFY9dWT749+fHB8PC5y19pPtJfujT58VJKb/1k89J++yc/Xuy3P3t/OwDdzvXl49uTn7/41tGNq3cv5w/drDpeSml9AbXHW98A++2vOm6//c3LtP3eAgIIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBqpnVT+MVj1+YP3Zz8/GB4ZHvnwJ3Ludmb3c61yY9v3TjQ/DjsUkpvoe7jTPubc81L++2f/Hix3/7s/e0AABDCW0AAoQQAIJQAAIRq3xO4LB4r84cqXmAwLNs7dy/nZku3U3F860Zp3hOzlNJbqDheSulvjlzab38V++1vCts/FoDVk2X5eMULrFwY+QK6nXL++Yrja1fKxvrII1XHy9g3wH77q9hvf1PYfm8BAYQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACDX2cdCDYd0LbN1oX65dqTg+/s9VHZ/kBe/P/hb7q9jfYn+Vae93U3iAUN4CAgglAAChBAAglAAAhBr7K6D+elnevNcz97CyVPqN+9D3Nsv59b2fPWZtofSWRh7Zrfyl9Mzo8+23v4r99jeF7fcTAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABDKTeEBQvkJACCUAACEEgCAUAIAEKp9U/gzZy53u8PJz589e2Jjo3PncnFxuLp6efLjg0Hn3LkTzUf6/Zp7IpfSG70nsv32T3682G9/9v52ALrd4XLNXe0vXnym+QXMz+9UHS+ltL6A2uOtb4D99lcdt9/+5mXafm8BAYQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACNW+Kfzi4nB+fmfy84NBZ3t79s7l3NxO1cdhb23NNj8NtZTS69V9nGm/v9C8tN/+yY8X++3P3t8OAAAhvAUEEEoAAEIJAECo9j2BF49dmz90c/Lzg+GR7Z0Ddy7nZm92O9cmP75148DG1SPNR3oL25MfL6X0N+eal/bbP/nxYr/92fvbAVg9+fby8YqXWLlwcnvn7n8F3c61889fmvz42pW5jfWRL6DqeBn7Bthv/+THi/32Z+/3FhBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQ7Y+DHgwPV53funGgdbl2ZW6vJ48b/+eqjk/ygvdnf+sR+6ueb3/rEfurnj/1/W4KDxDKW0AAoQQAIJQAAIQSAIBQ7b8CKv2lsny84gVWLpT+5t3L3kI5/3zF8bUrpbc+8sjuDyuOl1JmfjRyab/9Vey3vylsv58AAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFBuCg8Qyk8AAKEEACCUAACEEgCAUGM3hT9zuXSHFS9w9kTZ6Ny9XByW1csVxwedcu7EyCP99T2euofe0sil/fZXsd/+prD9YwHoDsvy5r2euYeLz4x8AfM7dcdLaX8Btcdb3wD77a9iv/1NYfu9BQQQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACDU2E3hF4dlfqfiBQadsj1793Jup+7jsLdmRz4NtZTSq/w01P7CyKX99lex3/6msP1jAQAgg7eAAEIJAEAoAQAI1b4n8OLicL7mlxiDQWe78UuMubmdbs0vMba2ZjdGf4nRq/wlRn/0lzD22z/58WK//dn72wFYXb28XHNb4ZWVpeYX0O0Oz5+vuC392tpC6wuoOl7GvgH22z/58WK//dn7vQUEEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAgVPvjoAeDzj2ft5etrdnW5drawl5PHjf+z1Udn+QF78/+1iP2Vz3f/tYj9lc9f+r73RQeIJS3gABCCQBAKAEACCUAAKHafwXUX9pYPl5xW/qVCyf7m3N3LnsL2+efvzT58bUrnd76YvOR3R/+y+THSykzP/r75qX99k9+vNhvf/Z+PwEAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAodwUHiCUnwAAQgkAQCgBAAglAACh2jeFL2dOlG6n4gXOXiobV+9eLh4rqycrjg+G5dzlkUf6SxXHSym99ZFL++2vYr/9TWH7xwLQ7ZTl4xUvcPGtkS9g/lDd8VLaX0Dt8dY3wH77q9hvf1PYfm8BAYQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACDV2U/jFY2X+UMULDIZle+fu5dxs3cdhb90Y+TTUUkpvoeJ4KaW/OXJpv/1V7Le/KWz/WAAAyOAtIIBQAgAQSgAAQo3dE3hxWOZ37vXMPQw6ZXv27uXcTukOK45vzZaN0V969Db3eOoe+qO/9LDf/ir2298Utn8sAKuXy3LNS6wsjXwB3WE5v773s8esLbS/gKrjZewbYL/9Vey3vylsv7eAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBr7OOhBzS2JSylbs+3LtZq7Eo//c1XHJ3nB+7O/xf4q9rfYX2Xa+90UHiCUt4AAQgkAQCgBAAglAACh2n8F1O+vL9fc1HhlZanfuC1yr7d5vuauxGtrC73eUvOR3d26X0rPzIw83377Jz9e7Lc/e7+fAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQbgoPEMpPAAChBAAglAAAhBIAgFDtm8KfOfG7buf65OfPXvryxtUjdy4Xj11bPfn25McHw8PnLn+l+Uh/6dLkx0spvfWTzUv77Z/8eLHf/uz97QB0O9eXj29Pfv7iW0c3rt69nD90s+p4KaX1BdQeb30D7Le/6rj99jcv0/Z7CwgglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAECo9k3hF49dmz90c/Lzg+GR7Z0Ddy7nZm92O9cmP75140Dz47BLKb2Fuo8z7W/ONS/tt3/y48V++7P3twMAQAhvAQGEEgCAUAIAEKp9T+CyeKzMH6p4gcGwbO/cvZybLd1OxfGtG6V5T8xSSm+h4ngppb85cmm//VXst78pbP9YAFZPluXjFS+wcmHkC+h2yvnnK46vXSkb6yOPVB0vY98A++2vYr/9TWH7vQUEEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAg1NjHQQ+GdS+wdaN9uXal4vj4P1d1fJIXvD/7W+yvYn+L/VWmvd9N4QFCeQsIIJQAAIQSAIBQAgAQauyvgPrrZXnzXs/cw8pS6TfuQ9/bLOfX9372mLWF0lsaeWS38pfSM6PPt9/+Kvbb3xS2308AAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCg3hQcI5ScAgFACABBKAABCCQBAqPZN4c+cudztDic/f/bsiY2Nzp3LxcXh6urlyY8PBp1z5040H+n3a+6JXEpv9J7I9ts/+fFiv/3Z+9sB6HaHyzV3tb948ZnmFzA/v1N1vJTS+gJqj7e+AfbbX3Xcfvubl2n7vQUEEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAgVPum8IuLw/n5ncnPDwad7e3ZO5dzcztVH4e9tTXb/DTUUkqvV/dxpv3+QvPSfvsnP17stz97fzsAAITwFhBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEen/YAmI6DBz/z9a8/UUp5440/fPDBrWnPgSkQALKcOvX0Cy88+9xzR7/2tcOPPTZTSrl9e/e3v73++uvv/fznb/7qV+9MeyB8emZKeXnaG+DTcPDgZ37847/53veeu89zfvrT17///f/wAwEhBIAI3W7nF7/4u6efPvQnn/nOOze+/e1/HQyGn8IqmC4BYP/74hcPbm7+w+HDn53w+dev/+/Cwj+///4HD3UVTJ2/AmL/e+WV05P/r38p5fDhz77yyumHtwceEQLAPvfii8+ePv3V2lOnT3/1xReffRh74NHhLSD2ud///h+PHv38Axx8773/efLJf/rE98Cjw08A7GdPPHHwwf7Xv5Ry9Ojnn3ji4Ce7Bx4pAsB+9vH/1Wtax+ERJwDsZwIA9yEA7GedzuwUj8MjTgDYzzY3/3uKx+ERJwDsZ2+88YcpHodHnACwn7355vu3b+8+2Nnbt3fffPP9T3YPPFIEgP3sgw9uvfbaew929rXX3vOpcOxvAsA+99JLv7x166PaU7duffTSS798GHvg0fEXpfz1tDfAQ/THP3740Ue3T536UtWpH/zg1QsX/ushTYJHhACw/21sDE+d+tLc3KR/0/mb3wy/+91/333A3x3Anw0BYP/b3S39/uYXvvBX3/jGkzMzf+KZP/nJf77wwsUHeNcI/uz4MDiCfOtbT/3sZ3/71FP3vi3Mu+/e+M53/u3VV9/9lFfBtAgAWT73ub/85jefeu65ox//p5Ty+uvvffyfX//63Q8//L9pD4RPjwAAhPJnoAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQKjHpz2AaP3+0vLy8WmvmJq1tSu93vq0V5DLTwAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAqJlSXp72BgCmwE8AAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAECo/wdMYdXoroNtewAAAABJRU5ErkJggg==');
-                    "
-                >
+
+            <div class="row">
+                <div class="col-12 col-md-8 h5">
+                    Durante meu curso superior, muito se comentou dessa matéria, mesmo sabendo que ia ser mais teórica que prática, eu ansiava criar um jogo completo nela, e com isso estava ansioso para o semestre que finalmente chegou a matéria de “Desenvolvimento de Jogos”.
                 </div>
                 
-                <div
-                    class="pt-5 pb-5"
-                >
-                    O que é um jogo bricks? Basicamente é aquele jogo que qualquer um que já se divertiu nos sites de flash dos anos 2000 tenha jogado, onde o objetivo de quebrar blocos é o mais importante do jogo inteiro.
+                <div class="col-12 col-md-4">
+                    <img src="static/img/grab_emote.png"
+                        style="
+                            width: 100%;
+                            object-fit: contain;
+                            padding: 0 10%;
+                        "
+                        alt="Meme com meu pesonagem agarrando o ar"
+                    />
                 </div>
             </div>
+            <br />
             <hr />
-            <div>
-                Mais como eu e ele somos um pouco apaixonados demais pelos videogames, criamos algo muito além, combinando com o estilo top-down e sem querer terminamos com um hotline-miami clone com muita personalidade e se inspirando principalmente na estética anos 80 disco.
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/2_2PjUsiBqo?si=jzysxKkgfup148Xv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
-                O jogo já está em fase final de desenvolvimento, mas ainda um horrível bug não permite dar build no jogo direito, espero resolver logo e postar para download!
+            <h3>Rabiscando Ideias</h3>
+            <br />
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/IHMkKvTyYFg?si=PARyHslzkr5ObSST" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true">
+                        
+                    </iframe>
+                </div>
+                <div class="col-12 col-md-7">
+                    <small>
+                        Algo que inicialmente planejamos, se o tema do jogo fosse livre, escolheríamos por fazer um Demake (Contrário de Remake, ou seja, trazer um jogo novo, a um gráfico antigo e único, como se lançado na época). Isso muito inspirado pela persona do Gemaplys, em um vídeo que ele realiza um Demake do Dark Souls 1. 
+                    </small>
+                </div>
             </div>
+            <br /><br /><br />
+            <a href="https://giphy.com/gifs/llimoo-sega-streets-of-rage-llimoo-O1TziMydfJkn2IBOu0">
+                <iframe src="https://giphy.com/embed/O1TziMydfJkn2IBOu0" width="100%" height="20%" frameBorder="0" class="giphy-embed" allowFullScreen="true">
+                
+                <p>via GIPHY</p>
+                </iframe>
+            </a>
+            Nosso jogo que certamente encaixaria perfeitamente no estilo Beat 'em up dos fliperamas antigos, escolhemos na cara o jogo “Devil May Cry 5”, o qual possui uma estética e personalidade muito particular, capturar em píxeis não seria nada fácil, mas é claro, um desafio a altura para dois fanáticos de desenvolvimento de jogos e da franquia Devil May Cry.
+            <br /><br /><br />
+            <div class="p-4">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-7">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ZT4ImIQ7lRc?si=S8j1tnWafhpsm9R2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true">
+                        
+                        </iframe>
+                    </div>
+                </div>
+                <br />
+                [Escutar a trilha sonora de Devil May Cry 5 em 8-bits ainda me dá arrepios]
+            </div>
+            <br /><br />
+            Esse ar de nostalgia que os píxeis e gráficos limitados trazem um ar magico demais, não só para pessoas mais velhas de videogame, mas também para muitas das pessoas que não viveram os anos 90-2000 completamente, pois devido à muitos fatores, passaram por muitos clássicos dessas épocas, um exemplo sou eu mesmo que na minha adolescência saiu o PlayStation 4, e eu ainda estava jogando jogos do PlayStation 2. 
+            <br /><br />
+            A estética única e estilo artístico desse é um grande atrativo, faz que jogos como Minecraft ou Starlley Valley, mesmo com gráficos tão simples, não sejam menos populares que um jogo ultra-realista.
+            <br /><br />
+            <hr />
+            <br />
+            Voltando ao jogo… Uma semestre passou muito rápido…
+            <br /><br />
+            <div class="row h4 text-secondary text-center">
+                <div class="col-sm-12 col-md-6">
+                    Já chegando o aguardadíssimo momento do juízo final, o TCC, nesse cenário o projeto final de jogos chega…
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <a href="https://giphy.com/gifs/i-did-a-thing-e5kbmb3wX3J1S"><iframe src="https://giphy.com/embed/e5kbmb3wX3J1S" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen="true"> </iframe></a>
+                </div>
+            </div>
+            <br /><br />
+            Os professores anunciam então as regras do trabalho, e com elas algumas das nossas ideias foram abandonadas para surgimento de várias outras!
+            <br /><br />
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6">
+                    <h5>Regras:</h5>
+                    <ul>
+                        <li><small>Usar motor de criação de jogos a Unity.</small></li>
+                        <li><small>Deveria ser baseado no jogo “tijolos” que já tinha sido produzido na aula.</small></li>
+                        <li><small>Ter todas as características principais do jogo “tijolos” como os objetivos, jogabilidade, regras, etc.</small></li>
+                        <li><small>Em dupla.</small></li>
+                        <li><small>Entrega em duas semanas.</small></li>
+                    </ul>
+                </div>
+            </div>
+            <br />
+            Foi um golpe no estômago para muitos, mesmo que cada um do curso já sabia que em qualquer momento chegaria essa hora, mas junto ao Ryan, mantivemos no objetivo, fazer algo mediamente único, decente e divertido.
+            <br /><br />
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img src="static/img/projects/bricks_miami/breakout.jpg"
+                        style="
+                            width: 100%;
+                            object-fit: contain;
+                            padding: 0 15%;
+                        "
+                        alt="foto do jogo tijolos"
+                    />                
+                </div>
+                <div class="col-12 col-md-6">
+                    Para quem não sabe, o jogo clássico de “tijolos”, tem dois objetivos claros, o de quebrar todos os tijolos com uma bola que repele toda vez que o jogador bate nela, e por sua vez a bola não pode passar do jogador para fora da tela.
+                </div>
+            </div>
+            <br />
+            Ryan e eu concordamos em que teríamos de beber em outras fontes ou jogabilidade para deixar mais dinâmico e interessante o simples jogo.
+            <br /><br />
+            <div class="text-center">
+                <img src="static/img/projects/bricks_miami/dura_decisao.png"
+                    style="
+                        width: 60%;
+                        height: 60%;
+                        object-fit: contain;
+                    "
+                    alt="foto da conversa no whatsapp que decidimos o jogo"
+                />
+                <br />
+                <small>[Pena que ele decidiu FPS, eu já até tinha começado a desenhar o jogo de dating-sim.]</small>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    Com nossas ideias e melhorias escrevemos um simples GDD com funcionamento básico e  o que queríamos ver funcionando, bem na cara de um protótipo, onde invertemos uma das regras, a bola que em outros jogos de “tijolos” é parte do jogador, no nosso ela seria uma espécie de dificuldade a mais e criada fora do jogador.
+                </div>
+                <div class="col-12 col-md-8">
+                    <img src="static/img/projects/bricks_miami/esboco.png"
+                        style="
+                            width: 100%;
+                            object-fit: contain;
+                            padding: 0 15%;
+                        "
+                    />                
+                </div>
+            </div>
+            <br /><br />
+            Ideia inicial de protótipo é baseado em um jogo de bilhar, onde todas as peças poderiam ser destruídas, sejam inimigos ou cenários, só com bordas indestrutíveis para melhor rebote das bolas. Para realizar isso eu já tinha um pouco de noção, já tinha mexido com Tilemap’s na Unity. (Isso vai ser uma dor de cabeça mais para frente)
+            <div class="text-center">
+                <img src="static/img/projects/bricks_miami/gata.png"
+                    style="
+                        width: 100%;
+                        object-fit: contain;
+                        padding: 0 15%;
+                    "
+                    alt="foto da gata minha julgadando crimes no meu codigo javascript"
+                />
+                <br />
+                [Tilemap Collider 2D só na espreita para me destruir a vida]
+            </div>
+            <br /><br />
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    Com a ideia meio confusa ainda em alguns pontos, realizando o início da arte do jogo (meu momento favorito), eu desenhando acabo novamente com o Gemaplys na mente, acredito que tocou uma música no YouTube mix do alter-ego do Gema, o MC.VV, e baseado nisso surgiu a ideia, muito inspirada no clip da música Bond 3 do Bonda 4:
+                </div>
+                <div class="col-12 col-md-8">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/6zqRFfrM_Mk?si=KXcS-bR0LQYrmDZN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"> </iframe>            
+                </div>
+            </div>
+            <br /><br /><br />
+            <div class="p-5 text-center h5 text-secondary">
+                Uma piada absurda com a ideia do jogo ressoava na minha cabeça, enquanto eu passava para o Ryan o estalo da ideia, cada vez mais se solidificou o plot principal, onde um garoto branco de balaclava normal lutava com diversos calvos e no final se revelava ser o polêmico Kayne West.
+            </div>
+            <br />
+            Com esse plot principal do jogo, eu e Ryan lembramos do aclamado Hotline Miami, e pensamos… Se fizermos na mesma na linha, só que alguns detalhes aqui e ali diferentes.
+            <br /><br />
+            Essa viagem toda, fez que o jogo “tijolos” se transformasse muito… Eu realmente não entendo como chegamos nisso no dia de rabiscar o jogo.
+            <br /><br />
+            Só tivemos medo de ser reprovados por sair completamente das regras do “tijolos” lá no último dia, quando nós explicamos o jogo para um colega e ele perguntou; O que tem de tijolos aí?
+            <br /><br />
+            Com isso, simplesmente as coisas começaram a sair do controle…<br />
+            A plataforma ganhou um revólver.<br />
+            Coloquei um personagem baseado no MC VV no lugar da plataforma.<br />
+            Criamos um monte de inimigos calvos.<br />
+            Adicionamos diversos efeitos psicodélicos no jogo e som com direitos autorais que certamente seriam demandados por 32 gravadoras diferentes.
+            <br /><br />
+            <div class="p-5 text-center h5 text-secondary">
+                Na nossa cabeça… Estava perfeito!
+            </div>
+            <div class="text-center">
+                <img src="static/img/projects/bricks_miami/chad_ryan.png"
+                    style="
+                        width: 100%;
+                        height: 280px;
+                        object-fit: contain;
+                        padding: 0 15%;
+                    "
+                    alt="foto do ryan seduzindo"
+                />
+                <br />
+                [Falando em perfeito, ryan seduzindo]
+            </div>
+            <br /><br />
+            Muito do relato vem da minha parte, pois não tive ainda o tempo de conversar com meu amigo sobre tudo… De como foi as intensas duas semanas que passamos. Eu agradeço tudo que ele conseguiu me ajudar.
+            <br /><br />
+            Não importando se a professora pediu algo simples, Ryan e eu, não ironicamente, gastamos todo nosso tempo livre nisso, algo que ainda mais foi difícil após ele começar a trabalhar na época, então eram dois com os trabalhos finais da faculdade e fazendo as oito horas com o jogo no tempo livre.
+            <br /><br />
+            Começou a chegar a data de entrega, algumas coisas absurdas começaram a acontecer.
+            <br /><br />
+            Um erro muito sorrateiro estava secretamente tramando contra mim, na quarta da segunda semana começa a se revelar, eu libero a versão alfa 4, para teste dos meus colegas de faculdade e trabalho.
+            <br /><br />
+            Gostaram bastante da ideia, mas algo que não tinha dado tanta bola, era que por alguns comentavam que o cenário raramente quebravam…
+            <br /><br />
+            “Raramente? Eu pensei…”
+            <br /><br />
+            Isso evoluiu quando eu fui testar a versão no dia seguinte, nenhum cenário era quebrável, (obrigado quem testou e para não me fazer virar a noite, e não me falou que era completamente injogavél dessa maneira), apaguei a janela da versão, rodei a Unity, e tudo normal por lá.
+            <br /><br />
+            Eu não sabia que ia entrar em um turbilhão de frustração e raiva, algo no Tilemap Collider 2D da Unity, impede que eu consiga corretamente eliminar um tile de um tilemap só quando o jogo tá compilado, antes no editor, nada acontece. (Vasculhei completamente os fóruns e dicas… Até mesmo reescrevi o código seguindo outra lógica mais de uma vez e nada)
+            <br /><br />
+            Talvez seja graças a mina estádia na “Delgrande” (obrigado Nunes!), trabalhando eu comecei a dar mais valor a cada hora que eu gasto com um problema, e quanto mais o tempo passava, eu tive que ir terminar os outros detalhes que poderiam melhorar no jogo.
+            <br /><br />
+            Não me orgulho, mais de 24 horas eu gastei tentando consertar desde então…
+            <br /><br />
+            Coisas importantes foram adicionadas então, tanto na gameplay como em personagens diferentes, inimigos diferentes, salas e outras lógicas que ajudariam, como um sistema completo de ataque físico que ainda não tinha implementado… Foram algumas das coisas que corri no final do projeto para entregar, enquanto as telas eram finalizadas pelo Ryan e ele me dava a mão em certas lógicas e objetos complexos.
+            <br /><br />
+            Algo que mais me motivou é ter alguém do lado do projeto, correndo atrás e acompanhando os passos…
+            <br /><br />
+            Os personagens podem ser desbloqueados inicialmente na tela com título do jogo por meio de senhas, com vários easter-eggs e detalhes unicos.
+            <br /><br />
+            O tempero dos personagens jogáveis começou com o mr.Ye que seria o jogador sem a máscara, eu gostaria de ter implementado um modo que só poderia acertar os ataques físicos, quais são muito arriscados de acertar, e desse forma desafiar quem escolher o personagem, a senha para desbloquear ele é “monark”.
+            <br /><br />
+            Para o terceiro personagem jogável, eu queria ir muito além de uma skin do jogador, reformulando a arma física e dando uma muito poderosa arma de largo alcance, sendo um personagem que me ajudou muito a testar coisas no jogo, o Mr.Mistério, como o chamei, é um programador muito similar a um querido professor chamado Miguel, qualquer semelhança é uma coincidência, porém como homenagem, a senha para desbloquear o Mr.M é “miguel”, obrigado por todo tempo professor!
+            <br /><br />
+            Para fechar com chave de ouro, eu queria uma mulher empoderada e forte, a personagem mais difícil de desbloquear de longe, essa sendo a personagem com os pontos mais elevados, eu criei então a Oliva, nome retirado da mãe de uma das personagens principais do manga One Piece, a personagem por sua vez, é uma mulher branca que anda com uma enorme Katana ao estilo Kill Bill com diversas tatuagens pelo corpo, o cabelo me inspirei no beiçola da grande família, um ícone cultural. (Qualquer semelhança com a realidade ainda é coincidência)
+            <br /><br />
+            Não tive retorno direto dos professores, mas Ryan e eu tiramos 10 na entrega do mesmo, acreditamos que eles devem ter gostado…
+            <br /><br />
+            É foi isso! Espero um dia resolver o bendito do erro! (Tentei bastante desde então)
+            <br /><br />
+            Até.
+            <iframe width="100%" height="400px" src="https://www.youtube.com/embed/2_2PjUsiBqo?si=jzysxKkgfup148Xv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true">
+                 
+            </iframe>
         </div>
     </content>
     <date>
-        8 de dezembro de 2023
+        29 de dezembro de 2023
     </date>
 </project>
