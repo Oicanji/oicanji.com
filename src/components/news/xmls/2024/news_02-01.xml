@@ -1,0 +1,41 @@
+<?xml version='1.0' ?>
+<news>
+    <header>
+        Escrevendo e melhorando o site!
+    </header>
+    <content>
+        <div class="container pr-5 pl-5 pb-2" style="text-align: justify; font-size: 0.7rem;">
+            Estou arduamente trabalhando para descrever e ilustrar da forma mais divertida as publicações daqui, principalmente no “projetos”, espero que gostem!
+            <br />
+            <a href="https://giphy.com/gifs/xonOzxf2M8hNu">
+                <iframe src="https://giphy.com/embed/xonOzxf2M8hNu" width="100%" height="270" frameBorder="0" class="giphy-embed" allowFullScreen="true"> </iframe>
+            </a>
+            <br />
+            Atualmente tô pensando em criar um editor melhor que ficar passando do Google Docs e inserindo manualmente o html, assim que ele tiver pronto, acredito que irei publicá-lo, sim, toda noticia nesse site aqui é um xml enorme que eu escrevo o texto e depois programo o html, isso é um pouco chatinho, mais quando criei aqui quiz não me utilizar de banco de dados nem nada.
+            <br /><br />
+            Espero que gostem dos meus relatos de projetos, tentarei focar nisso, já depois que eu escreva tudo que tenho trabalhado nos últimos anos, irei melhorar essa página de notícia!
+            <br /><br /><br />
+
+            <div class="text-center">
+                Feliz 2024 aliás!
+            </div>
+            <img src="static/img/v_emote.png"
+                style="
+                    width: 100%;
+                    object-fit: contain;
+                    padding: 0 25%;
+                    
+                    image-rendering: pixelated;
+                    image-rendering: -moz-crisp-edges;
+                    image-rendering: crisp-edges;
+                "
+                alt="Imagem de meu avatar mandando um V de vitória"
+            />
+        </div>
+    </content>
+    <footer>
+        24 de dezembro de 2023
+        <br />
+        ~Oicanji
+    </footer>
+</news>

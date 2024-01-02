@@ -93,6 +93,22 @@ const CLOTHES = [
         skin: "clothesbody6_color8.png",
         chance: 0.3
     },
+    {
+        skin: "clothesbody7_color1.png",
+        chance: 0.6
+    },
+    {
+        skin: "clothesbody7_color2.png",
+        chance: 0.3
+    },
+    {
+        skin: "clothesbody7_color3.png",
+        chance: 0.3
+    },
+    {
+        skin: "clothesbody7_color4.png",
+        chance: 0.3
+    },
 ]
 const HEAD = [
     {
@@ -141,6 +157,22 @@ const EYES = [
     },
     {
         skin: "eyes4_color1.png",
+    },
+    {
+        skin: "eyes5_color1.png",
+        chance: 0.5
+    },
+    {
+        skin: "eyes5_color2.png",
+        chance: 0.5
+    },
+    {
+        skin: "eyes5_color3.png",
+        chance: 0.5
+    },
+    {
+        skin: "eyes5_color4.png",
+        chance: 0.5
     },
 ]
 const MOUTH = [
@@ -425,7 +457,7 @@ const NEARS = [
     }
 ]
 
-const ANIMAL_CHANCE = 0.05;
+const ANIMAL_CHANCE = 0.08;
 const ANIMAL = [
     {
         skin: "animal1_color1.png",
@@ -444,7 +476,7 @@ const ANIMAL = [
     }
 ]
 
-const SPECIAL_CHANCE = 0.1;
+const SPECIAL_CHANCE = 0.3;
 const SPECIAL = [
     {
         skin: "special1.png",
@@ -478,5 +510,20 @@ const SPECIAL = [
     },
     {
         skin: "special11.png",
+    },
+    {
+        skin: "special12.png",
+    },
+    {
+        skin: "special13.png",
+    },
+    {
+        skin: "special14.png",
+    },
+    {
+        skin: "special15.png",
+    },
+    {
+        skin: "special16.png",
     }
 ]

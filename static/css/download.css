@@ -2,3 +2,13 @@
     font-size: 0.7em;
     word-wrap: break-word;
 }
+
+.download-items i {
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+.download-items > div > div {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

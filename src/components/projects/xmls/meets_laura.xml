@@ -1,0 +1,33 @@
+<?xml version='1.0' ?>
+<project>
+    <name>
+        Meets Laura
+    </name>
+    <thumbnail>
+        <img src="static/img/projects/meets_laura.png"
+            style="
+                width: 80%;
+                object-fit: contain;
+            "
+        />
+    </thumbnail>
+    <link>
+        Código fonte: <a href="https://github.com/Oicanji/meetsLaura">
+            https://github.com/Oicanji/meetsLaura
+        </a><br />
+        Download do APK: <a href="downloads/projetos/meetsLauraV1.apk">
+            meetsLauraV1.apk
+        </a>
+    </link>
+    <description>
+        Jogo para Android feito na aula de Dispositivos Moveis, criado com kotlin no Android Studio, baseado em jogos de namoro virtual como Visual Novels japoneses em geral.
+    </description>
+    <content>
+        <div class="container pr-5 pl-5">
+            Em breve...
+        </div>
+    </content>
+    <date>
+        29 de dezembro de 2023
+    </date>
+</project>

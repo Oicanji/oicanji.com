@@ -1,6 +1,10 @@
 <?php
 $project = [
+    // 'gamsources.xml',
     'bricks_miami.xml',
+    'meets_laura.xml',
+    // 'conditional_sprites.xml',
+    // 'matchup.xml',
     'nft_generator.xml',
 ];
 

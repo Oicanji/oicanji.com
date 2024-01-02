@@ -95,6 +95,8 @@ async function drawLayers(layersArray) {
       ctx.save(); // Salva o estado atual do contexto
       ctx.scale(-1, 1); // Inverte no eixo x mantendo o eixo y igual
       ctx.imageSmoothingEnabled = false; // Desativa a suavização para manter a nitidez
+      ctx.webkitImageSmoothingEnabled = false;
+      
       ctx.drawImage(img, -canvas.width, 0, canvas.width, canvas.height);
       ctx.restore();
 
