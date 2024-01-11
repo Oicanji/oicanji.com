@@ -6,6 +6,23 @@
     border-bottom: 1px solid #fff;
     padding-bottom: 10px;
 }
+
+.news-item{
+    margin-bottom: 50px;
+}
+.pagination{
+    margin-top: 10px;
+}
+.pagination a{
+    background-color: #ffffff00 !important;
+    color: #fff;
+}
+
+.page-link.disabled, .disabled > .page-link {
+    background-color: #ffffff00 !important;
+    color: #ffffff !important;
+}
+
 .news-content{
     font-size: 16px;
     color: #ffffffd1;
@@ -17,4 +34,93 @@
     color: #fff;
     margin-bottom: 10px;
     margin-top: 30px;
+}
+
+.news-list{
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+.news-list-header{
+    color: #fff;
+}
+.news-list-header-colapse{
+    display: none;
+}
+
+.news-list-item{
+    text-align: left;
+    margin-bottom: 30px;
+}
+.news-list-item:hover{
+    cursor: pointer;
+}
+.news-list-item p{
+    transition: all 0.5s;
+    font-size: 1em;
+    font-weight: bold;
+}
+.news-list-item p:hover{
+    transition: all 0.5s;
+    color: #fff;
+}
+.news-list-year{
+    text-align: left;
+    font-size: 1.4em;
+    color: #fff;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.news-list-item div{
+    font-size: 0.85em;
+    font-style: italic;
+}
+.news-list-back{
+    font-size: 1.2em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.list-container-news-list{
+    border-right: 1px solid #ffffff14;
+}
+.news-article{
+    font-size: 1em;
+}
+@media (max-width: 730px) {
+    .list-container-news-list{
+        border-right: none;
+    }
+    .news-list-header{
+        display: none;
+    }
+    .news-list-header-colapse{
+        font-size: 1.4em;
+        display: block;
+    }
+    .news-list{
+        animation: SlideOut 0.5s forwards;
+    }
+    @keyframes SlideIn {
+        0% {
+            height: 0;
+            opacity: 0;
+        }
+        100% {
+            height: auto;
+            opacity: 1;
+        }
+    }
+    .news-list.show{
+        animation: SlideIn 0.5s forwards;
+    }
+    @keyframes SlideOut {
+        0% {
+            height: auto;
+            opacity: 1;
+        }
+        100% {
+            height: 0;
+            opacity: 0;
+        }
+    }
 }

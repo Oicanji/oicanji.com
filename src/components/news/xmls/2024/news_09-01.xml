@@ -1,0 +1,44 @@
+<?xml version='1.0' ?>
+<news>
+    <header>
+        Novas implementação, bem vindos a era dos artigos!
+    </header>
+    <type>
+        artigo
+    </type>
+    <categories>
+        gerais
+    </categories>
+    <content>
+        <div class="container pr-5 pl-5 pb-2" style="text-align: justify; font-size: 0.7rem;">
+            <p>
+                Gostaria de publicar além meu projeto e experiencias, também juntar artigos e textos que esteja trabalhando, um lado um pouco mais intimista, então este aqui é a primeira notícia que você terá como “ver mais”.
+            </p>
+            <br />
+            <img src="static/img/thoughtful_emote.png"
+                style="
+                    width: 100%;
+                    object-fit: contain;
+                    padding: 0 25%;
+                    
+                    image-rendering: pixelated;
+                    image-rendering: -moz-crisp-edges;
+                    image-rendering: crisp-edges;
+                "
+                alt="Imagem de meu avatar pensando"
+            > </img>
+        </div>
+    </content>
+    <article>
+        <div class="container pr-5 pl-5 pb-2" style="text-align: justify">
+            <p>
+                Praticamente gostaria de trazer aqui artigos e textos com objetivos e tamanhos de leitura  diferentes, espero que gostem, eu adoro escrever o que passa pela minha cabeça, se você tiver um tempo para me escutar!
+            </p>
+        </div>
+    </article>
+    <footer>
+        24 de dezembro de 2023
+        <br />
+        ~Oicanji
+    </footer>
+</news>

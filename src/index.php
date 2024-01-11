@@ -43,6 +43,7 @@
             require('src/components/footer/footer.php');
 
             require('src/include/bottom.php');
+            require('src/components/modal/modalImage.php');
         ?>
         <br />
     </body>

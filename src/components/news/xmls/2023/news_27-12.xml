@@ -3,6 +3,12 @@
     <header>
         Melhorei meu avatar!
     </header>
+    <type>
+        noticia
+    </type>
+    <categories>
+        gerais, interface
+    </categories>
     <content>
         <div class="container pr-5 pl-5 pb-2" style="text-align: justify; font-size: 0.7rem;">
             <br /><br />
@@ -14,26 +20,37 @@
                         style="
                             width: 100%;
                             object-fit: contain;
-                            padding: 0 30%;
+                            padding: 5%;
                         "
                         alt="Avatar"
                     />
                 </div>
                 <div class="col-12 col-md-7">
-                    Há um tempo eu já tinha feito o avatar que uso na maioria de redes sociais, falando com todas as outras ideias, até agora não tinha vindo nenhuma outra boa ideia…
+                    <p>
+                        Há um tempo eu já tinha feito o avatar que uso na maioria de redes sociais, falando com todas as outras ideias, até agora não tinha vindo nenhuma outra boa ideia…
+                    </p>
                     <br /><br />
-                    O estilo de arte utilizando píxel é muito divertido para mim, mesmo eu tendo um traço completamente diferente no meu desenho a mão, já no mouse, eu adorei trabalhar com esse estilo e não abandono nem ao usar mesa de desenho.
+                    <p>
+                        O estilo de arte utilizando píxel é muito divertido para mim, mesmo eu tendo um traço completamente diferente no meu desenho a mão, já no mouse, eu adorei trabalhar com esse estilo e não abandono nem ao usar mesa de desenho.
+                    </p>
                 </div>
             </div>
             <br />
-            A autenticidade que essa técnica dá para os desenhos é magico, é como se a mente preenchesse as lacunas dos desenhos em pixelart, algo que notava quando eu realizo caricaturas no papel, é incrível como podemos representar em tão poucos píxeis tantas coisas da vida…
+            <p>
+                A autenticidade que essa técnica dá para os desenhos é magico, é como se a mente preenchesse as lacunas dos desenhos em pixelart, algo que notava quando eu realizo caricaturas no papel, é incrível como podemos representar em tão poucos píxeis tantas coisas da vida…
+            </p>
             <br /><br />
-            O estilo de usar as linhas pretas como se fosse um desenho eu interiorizei como um erro por muito tempo, algo que só existia quando comecei na pixelart com um estilo mais contido, hoje eu compreendo melhor a matures dos estilos, e acredito que esse traço ficou ótimo!
+            <p>
+                O estilo de usar as linhas pretas como se fosse um desenho eu interiorizei como um erro por muito tempo, algo que só existia quando comecei na pixelart com um estilo mais contido, hoje eu compreendo melhor a matures dos estilos, e acredito que esse traço ficou ótimo!
+            </p>
             <br /><br />
-            Dito isso, meu avatar não podia ser “melhorado” ou redesenhado em outro estilo sem perder sua magia, pelo menos para mim, eu realmente gosto dele como está e sua estética, uma ideia que surgiu do nada ao trabalhar com o projeto de NFT a muito tempo era de criar diferentes camadas para meu avatar, e assim foi, eu deixei isso engavetado por 3 anos!
+            <p>
+                Dito isso, meu avatar não podia ser “melhorado” ou redesenhado em outro estilo sem perder sua magia, pelo menos para mim, eu realmente gosto dele como está e sua estética, uma ideia que surgiu do nada ao trabalhar com o projeto de NFT a muito tempo era de criar diferentes camadas para meu avatar, e assim foi, eu deixei isso engavetado por 3 anos!
+            </p>
             <br /><br />
-            Agora eu até me esforcei um pouco a mais para criar alguns outros acessórios e partes para deixar meu avatar o mais aleatório possível!
-            <br /><br />
+            <p>
+                Agora eu até me esforcei um pouco a mais para criar alguns outros acessórios e partes para deixar meu avatar o mais aleatório possível!
+            </p>
         </div>
         <p style="text-align: center; font-weight: bold; color: #fff">
             Espero que você se sinta especial! Você é especial para mim! 

@@ -1,0 +1,30 @@
+<?xml version='1.0' ?>
+<project>
+    <name>
+        The Last Crimson
+    </name>
+    <thumbnail>
+        <img src="static/img/projects/last_crimson.png"
+            style="
+                width: 80%;
+                object-fit: contain;
+            "
+        />
+    </thumbnail>
+    <link>
+        Sem link por enquanto...
+    </link>
+    <description>
+        <p> Categoria:  Drama, Ação, Terror, Pós-Apocalipse. </p>
+        <p>
+            Em um cenário apocalipse peculiar, um homem conhecido como “heroi de New York” irá ter que sobreviver e não se render a loucura, enfrentando uma ameaça que se adapta e melhora quanto mais tempo passa… Milhares de uma criatura criada em laboratório chamada Revenantes (Revenants).
+        </p>
+    </description>
+    <content>
+        <div class="container pr-5 pl-5">
+        </div>
+    </content>
+    <date>
+        29 de dezembro de 2023
+    </date>
+</project>

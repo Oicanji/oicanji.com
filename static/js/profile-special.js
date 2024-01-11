@@ -1,4 +1,4 @@
-const EASTER_EGG_CHANCE = 0.001;
+const EASTER_EGG_CHANCE = 1;
 
 const EASTER_EGG = [
     {
@@ -96,6 +96,39 @@ const COSPLAY = [
                 layer: "eyes",
                 skin: "eyes1_color5.png",
             },
+        ]
+    },
+    {
+        name: "jotaro",
+        parts: [
+            {
+                layer: "hair",
+                skin: "jojohair_color1.png",
+            },
+            {
+                layer: "hair_shadow",
+                skin: "",
+            },
+            {
+                layer: "clothes",
+                skin: "jojo_color1.png",
+            },
+            {
+                layer: "eyes",
+                skin: "jojoeyes_color1.png",
+            },
+            {
+                layer: "special",
+                skin: "special17.png",
+            },
+            {
+                layer: "glasses",
+                skin: "",
+            },
+            {
+                layer: "glasses_shadow",
+                skin: "",
+            }
         ]
     }
 ]

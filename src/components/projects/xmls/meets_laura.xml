@@ -20,14 +20,14 @@
         </a>
     </link>
     <description>
-        Jogo para Android feito na aula de Dispositivos Moveis, criado com kotlin no Android Studio, baseado em jogos de namoro virtual como Visual Novels japoneses em geral.
+        Jogo para Android feito na aula de Dispositivos Móveis, criado com Kotlin no Android Studio, baseado em jogos de namoro virtual estilo Visual Novels japoneses em geral.
     </description>
     <content>
         <div class="container pr-5 pl-5">
-            Em breve...
+           Em breve...
         </div>
     </content>
     <date>
-        29 de dezembro de 2023
+        05 de janeiro de 2024
     </date>
 </project>

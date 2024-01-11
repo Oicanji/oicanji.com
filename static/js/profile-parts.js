@@ -109,6 +109,14 @@ const CLOTHES = [
         skin: "clothesbody7_color4.png",
         chance: 0.3
     },
+    {
+        skin: "jojo_color1.png",
+        chance: 0.0001
+    },
+    {
+        skin: "jojo_color2.png",
+        chance: 0.0001
+    }
 ]
 const HEAD = [
     {
@@ -174,6 +182,10 @@ const EYES = [
         skin: "eyes5_color4.png",
         chance: 0.5
     },
+    {
+        skin: "jojoeyes_color1.png",
+        chance: 0.0001
+    }
 ]
 const MOUTH = [
     {
@@ -185,6 +197,11 @@ const NOUSE = [
     {
         skin: "nouse1_color1.png",
         shadow: "nouseshadow1_color1.png"
+    },
+    {
+        skin: "jojonouse_color1.png",
+        shadow: "nouseshadow1_color1.png",
+        chance: 0.0001
     },
 ]
 const BEARD = [
@@ -446,6 +463,11 @@ const HAIR = [
         chance: 0.0001
     },
     {
+        skin: "jojohair_color1.png",
+        shadow: "",
+        chance: 0.0001
+    },
+    {
         skin: "",
         shadow: "",
         chance: 0.01
@@ -525,5 +547,8 @@ const SPECIAL = [
     },
     {
         skin: "special16.png",
+    },
+    {
+        skin: "special17.png",
     }
 ]

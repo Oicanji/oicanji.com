@@ -71,6 +71,11 @@ $words = array(
     Come from demons that I hide <br />
     They love the shadows <br />
     When my angels on sabbatical',
+    "Salve Palmeiras!",
+    "Eu costumava ser um aventureiro como você, mas aí eu tomei uma flechada no joelho.",
+    "Naruto pode ser duro ás vezes, talvez você não saiba disso, mas Naruto também cresceu sem pai. Na verdade ele nunca conheceu nenhum de seus pais, e nunca teve nenhum amigo em nossa aldeia. Mesmo assim eu nunca vi ele chorar, ficar zangado ou se dar por vencido, ele está sempre disposto a melhorar, ele quer ser respeitado, é o sonho dele, e seu objetivo é ser o próximo Hokage! E ele vai ser, com certeza! Você pode ridicularizar ele por ser diferente, mas ele é o Naruto Uzumaki! Não importa o que você diga, você nunca vai encontrar alguém como ele em lugar nenhum!",
+    "O que é um homem? Um miserável monte de segredos.",
+    "Agua mole em pedra dura, tanto bate até que fura."
 );
 
 // holidays detection

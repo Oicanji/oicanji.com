@@ -3,21 +3,28 @@
     <header>
         Escrevendo e melhorando o site!
     </header>
+    <type>
+        noticia
+    </type>
+    <categories>
+        gerais
+    </categories>
     <content>
         <div class="container pr-5 pl-5 pb-2" style="text-align: justify; font-size: 0.7rem;">
-            Estou arduamente trabalhando para descrever e ilustrar da forma mais divertida as publicações daqui, principalmente no “projetos”, espero que gostem!
+            <p>
+                Estou arduamente trabalhando para descrever e ilustrar da forma mais divertida as publicações daqui, principalmente no “projetos”, espero que gostem!
+            </p>
             <br />
-            <a href="https://giphy.com/gifs/xonOzxf2M8hNu">
-                <iframe src="https://giphy.com/embed/xonOzxf2M8hNu" width="100%" height="270" frameBorder="0" class="giphy-embed" allowFullScreen="true"> </iframe>
-            </a>
+            <div class="tenor-gif-embed" data-postid="22807023" data-share-method="host" data-aspect-ratio="1.33333" data-width="100%"><a href="https://tenor.com/view/lain-serial-experiments-lain-type-typing-gif-22807023">Lain Serial Experiments Lain GIF</a>from <a href="https://tenor.com/search/lain-gifs">Lain GIFs</a></div> <script type="text/javascript" async="true" src="https://tenor.com/embed.js"> </script>
             <br />
-            Atualmente tô pensando em criar um editor melhor que ficar passando do Google Docs e inserindo manualmente o html, assim que ele tiver pronto, acredito que irei publicá-lo, sim, toda noticia nesse site aqui é um xml enorme que eu escrevo o texto e depois programo o html, isso é um pouco chatinho, mais quando criei aqui quiz não me utilizar de banco de dados nem nada.
+            <p>
+                Espero que gostem dos meus relatos de projetos, tentarei focar nisso, já depois que eu escreva tudo que tenho trabalhado nos últimos anos, irei melhorar essa página de notícia!
+            </p>
             <br /><br />
-            Espero que gostem dos meus relatos de projetos, tentarei focar nisso, já depois que eu escreva tudo que tenho trabalhado nos últimos anos, irei melhorar essa página de notícia!
-            <br /><br /><br />
-
             <div class="text-center">
-                Feliz 2024 aliás!
+                <p>
+                    Feliz 2024 aliás!
+                </p>
             </div>
             <img src="static/img/v_emote.png"
                 style="
@@ -30,7 +37,7 @@
                     image-rendering: crisp-edges;
                 "
                 alt="Imagem de meu avatar mandando um V de vitória"
-            />
+            > </img>
         </div>
     </content>
     <footer>

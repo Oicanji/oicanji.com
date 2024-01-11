@@ -1,0 +1,33 @@
+<?xml version='1.0' ?>
+<project>
+    <name>
+        Wandness//
+    </name>
+    <thumbnail>
+        <img src="static/img/projects/wandness.png"
+            style="
+                width: 80%;
+                object-fit: contain;
+            "
+        />
+    </thumbnail>
+    <link>
+        Nenhum por enquanto...
+    </link>
+    <description>
+            <p>Categoria: Aventura, Jovens, Sobrenatural, Ação.</p>
+            <p>
+                Meu quadrinho em um universo mistico, com várias referências, principalmente a obra “The Inferno of Dante” de Dante Alighieri, onde o personagem principal é um distante parente do personagem, e que irá se enfrentar a uma loucura de acontecimentos, após decidir descobrir a verdade da sua família.    
+            </p>
+    </description>        
+    <content>
+        <div class="container pr-5 pl-5">
+            <p>
+                Em breve...
+            </p>
+        </div>
+    </content>
+    <date>
+        01 de janeiro de 2024
+    </date>
+</project>

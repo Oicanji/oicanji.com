@@ -1,0 +1,32 @@
+<?xml version='1.0' ?>
+<project>
+    <name>
+        TierMatch
+    </name>
+    <thumbnail>
+        <img src="static/img/projects/tier_match.png"
+            style="
+                width: 80%;
+                object-fit: contain;
+            "
+        />
+    </thumbnail>
+    <link>
+        Codigo Fonte: <a href="https://github.com/Oicanji/TierMatch" target="_blank">
+            https://github.com/Oicanji/TierMatch
+        </a>
+    </link>
+    <description>
+        Plataforma criada na matéria de WEB II, utilizando a ferramenta DJANGO para criar um site de qualificações de forma divertida, utilizando um conceito de “Ame”, “Goste” e “Odeie” de plataformas de relacionamento. 
+    </description>
+    <content>
+        <div class="container pr-5 pl-5">
+            <p>
+                Em breve...
+            </p>
+        </div>
+    </content>
+    <date>
+        09 de janeiro de 2024
+    </date>
+</project>
